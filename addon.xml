@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.s4c.clic"
+version="1.1.24"
+name="S4C Clic video add-on"
+provider-name="Pete Arnold">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="script.module.requests" version="1.1.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">S4C Clic Video Add-on</summary>
+  <description lang="en">An add-on to play S4C video from the Clic website.</description>
+  <disclaimer lang="en">Scrapes video data from the S4C/Clic website. If this changes the add-on may not work.</disclaimer>
+</extension>
+</addon>
